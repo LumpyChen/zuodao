@@ -1,0 +1,27 @@
+@font-face {
+  font-family: pf;
+  src: url('../../public/PingFang.ttc'),
+}
+
+@font-face {
+  font-family: Roboto;
+  src: url('../../public/Roboto.ttf'),
+}
+
+
+html,body,#root {
+  font-family: pf;
+  height: 100%;
+}
+
+span {
+  line-height: 1.3em
+}
+
+td, th {
+  vertical-align: middle;
+  text-align: center;
+}
+.pro {
+  line-height: 1.5em;
+}
